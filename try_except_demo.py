@@ -1,4 +1,5 @@
 # The maximum index for the list below is 4
+# The first element (75) has an index of 0 (zero)
 # The index of 4 points to the value 97 in the list
 my_list = [75, 88, 82, 91, 97]
 
