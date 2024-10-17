@@ -2,7 +2,7 @@
 
 **An exception in Python is an error that occurs during the execution of a program.** When an exception happens, it can disrupt the normal flow of the program.
 
-**Think of it like this:** You're following a recipe to bake a cake. If you don't have enough flour, that's an exception. You can't continue following the recipe until you address the issue (do something about the exception).
+**Think of it like this:** You're following a recipe to bake a cake. If you don't have enough flour, that's an exception. You can't continue following the recipe until you do something about the exception (such as borrow three cups of flour from your neighbor).
 
 In Python, exceptions are handled using `try-except` blocks. 
 
