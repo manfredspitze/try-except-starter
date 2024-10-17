@@ -36,7 +36,7 @@ while True:
 ```python
 # Example 2
 # Did the user enter an age of zero or greater?
-# And did the user enter input that was not a number? (such as 'cat' or 'Mike')
+# Was the user's input valid?  Or did they enter invalid input (such as a negative age or string input instead of a number?)
 while True:
     try:
         age = int(input("Enter your age: "))
