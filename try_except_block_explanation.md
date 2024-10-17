@@ -21,7 +21,7 @@ In Python, exceptions are handled using `try-except` blocks.
 
 ```python
 # Example 1
-# Keep asking the user to enter a price for the grocery item until
+# Use a loop to keep asking the user to enter a price for the grocery item until
 # they enter a price that is 0 or greater
 while True:
     try:
