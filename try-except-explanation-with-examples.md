@@ -80,7 +80,13 @@ def get_positive_number():
         return None
 
 # Call the function
-get_positive_number()
+my_number = get_positive_number()
+print(my_number)
+
+# OUTPUT (if negative number was entered)
+Please enter a positive number: -8
+Error: The number must be positive!
+None
 ```
 
 **Explanation:**
