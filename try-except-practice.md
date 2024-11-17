@@ -15,7 +15,7 @@ A `try-except` block can help keep your script from crashing when the user enter
 One common problem when prompting users to enter numbers occurs when people input text instead of numbers. When you try to convert the input to an **integer**, you'll get a `ValueError`.
 
 - Write a script that prompts the user to enter two **integers**
-- In your `except` clause, catch the `TypeError` if either input value is not a number, and print a friendly error message that tells the user you were expecting a number
+- In your `except` clause, catch the `TypeError`, and print a friendly error message that tells the user you were expecting a number
 - Also add an `else` clause to your script underneath your `except` clause
 - In your `else` clause, find the sum of the two integers and use an f-string to print and display the sum of the two numbers
 - Test your script first by entering two numbers and then by entering some text instead of a number
