@@ -42,4 +42,4 @@ One common problem when prompting users to enter numbers occurs when people inpu
   - prompt the user to enter an **integer** between 0 and 5 (since the list contains six items)
   - use an f-string to print the item at the index the user just entered
 - As part of your first `except` block, catch an `IndexError` and print the message: *Index out of range! Enter an index between 0 and 5 only!*
-- As part of your second `except` block, catch an `ValueError` and print the message: *Invalid input! Enter an integer only!*
+- As part of your second `except` block, catch a `ValueError` and print the message: *Invalid input! Enter an integer only!*
