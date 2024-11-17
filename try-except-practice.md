@@ -40,6 +40,6 @@ One common problem when prompting users to enter numbers occurs when people inpu
 - Start by creating a list named `my_nums` and filling it with the numbers 10, 20, 30, 40, 50 and 60
 - In your `try` block:
   - prompt the user to enter an **integer** between 0 and 5 (since the list contains six items)
-  - use an f-string to print the item at the index the user just entered
+  - use an f-string to print the item at the index the user enters
 - As part of your first `except` block, catch an `IndexError` and print the message: *Index out of range! Enter an index between 0 and 5 only!*
 - As part of your second `except` block, catch a `ValueError` and print the message: *Invalid input! Enter an integer only!*
