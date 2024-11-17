@@ -14,6 +14,11 @@ In this practice project, you'll learn:
   - [try-except-examples.md](https://github.com/manfredspitze/try-except-starter/blob/main/try_except_examples.md)
 
 
- ### Video
+### Video
 
  - Watch the short video about [handling exceptions](https://youtu.be/j_q6NGOwDJo?feature=shared) in Python
+
+### Coding
+
+- Complete these practice activities
+- Save your code to the repo for this project
