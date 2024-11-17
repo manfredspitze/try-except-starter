@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this project, you'll learn how to use the `try-except` block to catch and handle exceptions that pop up when you run your code.
+In this project, you'll learn how to use the `try-except` block to catch and handle exceptions that might pop up when you run your code.
 
 A `try-except` block can help keep your script from crashing when the user enters incorrect or unexpected input.
 
