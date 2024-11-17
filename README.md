@@ -20,5 +20,5 @@ In this practice project, you'll learn:
 
 ### Coding
 
-- Complete these practice activities
+- Complete these [practice activities](https://github.com/manfredspitze/try-except-starter/blob/main/try-except-practice.md)
 - Save your code to the repo for this project
