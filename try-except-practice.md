@@ -19,4 +19,4 @@ One common problem when prompting users to enter numbers occurs when people inpu
 - Also add an `else` clause to your script underneath your `except` clause
 - In your `else` clause, find the sum of the two integers and use an f-string to print and display the sum of the two numbers
 - Test your script first by entering two numbers and then by entering some text instead of a number
-
+![Sample output](output.png)
