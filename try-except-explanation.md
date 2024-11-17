@@ -75,8 +75,8 @@ def get_positive_number():
         if number < 0:
             raise ValueError("The number must be positive!")
         return number
-    except ValueError as e:
-        print(f"Error: {e}")
+    except ValueError as err:
+        print(f"Error: {err}")
         return None
 
 # Call the function
