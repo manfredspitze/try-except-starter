@@ -19,6 +19,10 @@ In this practice project, you'll learn:
 
  - Watch the short video about [handling exceptions](https://youtu.be/j_q6NGOwDJo?feature=shared) in Python
 
+### Partner Work
+
+- After reviewing the resources in this repo and completing the readings, open `file.py` in VS Code on your workstation.
+
 ### Coding
 
 - Complete these [practice activities](https://github.com/manfredspitze/try-except-starter/blob/main/try-except-practice.md)
