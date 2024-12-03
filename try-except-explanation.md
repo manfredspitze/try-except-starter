@@ -116,7 +116,7 @@ except TypeError:
 **Explanation:**
 - The program asks the user to input two numbers.
 - If the user enters invalid data (like text), a `ValueError` is raised.
-- If there’s a type mismatch (e.g., trying to add numbers and strings together), a `TypeError` is raised.
+- If there’s a data type mismatch (e.g., trying to add numbers and strings together), a `TypeError` is raised.
 - Each exception is handled separately with a specific message.
 
 ---
