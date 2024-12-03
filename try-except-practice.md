@@ -28,8 +28,8 @@ One common problem when prompting users to enter numbers occurs when people inpu
 - Start by creating an empty Python list named `my_scores`
 - In your `try` block:
   - prompt the user to enter an **integer** to add to your empty list
-  - Tell Python to treat the user's input as an integer
-  - Use the `append()` method to add the user's input to the list
+  - Using the `int( )` function, tell Python to convert the user's input into an integer
+  - Use the `append()` method to add the user's input to your list
   - Print the updated list
 - As part of your `except` block:
   - catch a `ValueError` and then print a message that says:
