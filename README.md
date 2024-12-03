@@ -10,6 +10,7 @@ In this practice project, you'll learn:
 ### Reading
 
 - Read the markdown files contained in this repo:
+  - [exception-defined.md](https://github.com/manfredspitze/try-except-starter/blob/main/exception-defined.md)
   - [try-except-explanation.md](https://github.com/manfredspitze/try-except-starter/blob/main/try-except-explanation.md)
   - [try-except-examples.md](https://github.com/manfredspitze/try-except-starter/blob/main/try_except_examples.md)
 
