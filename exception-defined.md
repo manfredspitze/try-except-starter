@@ -1,0 +1,37 @@
+## Python Exceptions
+
+Read the info below so you can:
+
+1. understand what an *exception* is
+2. what *handling an exception* means
+3. what *throws* or *raises* an exception means
+4. why handling exceptions is important
+
+### What is an Exception?
+
+In Python, an **exception** is an error that occurs when you run your script. When something goes wrong (e.g., the user tries to divide by zero, or attempts to access an item in a list that doesn’t exist), Python **throws/raises** an exception. 
+
+### Handling Exceptions
+
+An **exception** is a signal that something went wrong when the user ran your script.  As a programmer, you can **handle** (*manage* or *deal with*) exceptions in different ways.
+
+### Why Handle Exceptions?
+
+Exceptions are bad because they can cause your script to crash, and users get frustrated when they run a script that keeps crashing.
+
+As a programmer, you should try to (1) anticipate and (2) write code to handle exceptions that might occur when a user runs your script.
+
+Doing so helps make your scripts more stable and more user-friendly.
+
+### Example of an Exception
+
+Here’s a simple example of an exception:
+
+```python
+x = 5
+y = 0
+result = x / y  # This raises a ZeroDivisionError
+```
+
+**Explanation:**
+- When we attempt to divide by zero, Python raises a `ZeroDivisionError`. This is an exception that tells us we cannot divide a number by zero.
