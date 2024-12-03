@@ -21,7 +21,8 @@ In this practice project, you'll learn:
 
 ### Partner Work
 
-- After reviewing the resources in this repo and completing the readings, open `file.py` in VS Code on your workstation.
+- After reviewing the resources in this repo and completing the readings, open `partners-exceptions-run-time.py` in VS Code on your workstation
+- Follow the instructions in this Python file
 
 ### Coding
 
