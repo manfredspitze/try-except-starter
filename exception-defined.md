@@ -13,7 +13,7 @@ In Python, an **exception** is an error that occurs when you run your script. Wh
 
 ### Handling Exceptions
 
-To put it another way, an **exception** is a signal that something went wrong when the user tried to run your script.  As a programmer, you can **handle** (*manage* or *deal with*) exceptions in different ways.
+To put it another way, an **exception** is a signal that something went wrong when the user tried to run your script.  As a programmer, you can **handle** (*manage* or *deal with*) specific types of exceptions.
 
 ### Why Handle Exceptions?
 
