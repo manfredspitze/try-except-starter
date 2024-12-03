@@ -29,6 +29,7 @@ Here’s a simple example of an exception:
 x = 5
 y = 0
 result = x / y  # This raises a ZeroDivisionError
+print(result)
 ```
 
 **Explanation:**
