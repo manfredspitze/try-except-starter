@@ -92,7 +92,7 @@ None
 **Explanation:**
 - The program tries to convert the user input to an integer.
 - If the user enters something that isn't a number (like text or a symbol), a `ValueError` is raised and the function returns `None` (meaning, in this case, that the user entered invalid input)
-- We also raise a `ValueError` if the number is negative.
+- We also raise a `ValueError` if the number the user enters is negative.
 - The `except` block catches the exception and prints an error message.
 
 ---
