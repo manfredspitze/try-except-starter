@@ -19,7 +19,7 @@ To put it another way, an **exception** is a signal that something went wrong wh
 
 Exceptions are bad because they can cause your script to crash, and users quickly get frustrated when they run a script that keeps crashing.
 
-As a programmer, you should try to (1) anticipate exceptions and (2) try to write code that can handle exceptions (so your script doesn't crash).
+As a programmer, you should try to (1) anticipate exceptions and (2) try to write code that can handle exceptions (so your script exits gracefully instead of suddenly crashing).
 
 ### Example of an Exception
 
