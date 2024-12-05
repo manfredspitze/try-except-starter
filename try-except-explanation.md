@@ -88,8 +88,8 @@ print(my_number)
 
 **Explanation:**
 - The function checks if the number is negative inside the `try` block (if the number is negative, the function returns `None`, otherwise the function returns the value of the number)
-- If the input is not a valid number (i.e., the user enters a non-numeric value), the `except ValueError` block catches the error and prints an error message, also returning `None`
-- We're handling both invalid inputs and negative numbers directly within the `try` and `except` blocks
+- If the input is not a valid number (i.e., the user enters a non-numeric value such as *cat* or *#&mj!$*), the `except ValueError` block catches the error and prints an error message, and returns `None`
+- So we're handling both invalid inputs and negative numbers directly within the `try` and `except` blocks
 ---
 
 ### Example 3: Catching Multiple Types of Errors
