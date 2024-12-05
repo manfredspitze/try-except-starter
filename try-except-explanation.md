@@ -73,28 +73,23 @@ def get_positive_number():
     try:
         number = int(input("Please enter a positive number: "))
         if number < 0:
-            raise ValueError("The number must be positive!")
+            print("Error: The number must be positive!")
+            return None
         return number
-    except ValueError as err:
-        print(f"Error: {err}")
+    except ValueError:
+        print("Error: That's not a valid number!")
         return None
 
 # Call the function
 my_number = get_positive_number()
 print(my_number)
 
-# OUTPUT (if negative number was entered)
-Please enter a positive number: -8
-Error: The number must be positive!
-None
 ```
 
 **Explanation:**
-- The program tries to convert the user input to an integer.
-- If the user enters something that isn't a number (like text or a symbol), a `ValueError` is raised and the function returns `None` (meaning, in this case, that the user entered invalid input)
-- We also raise a `ValueError` if the number the user enters is negative (because Python is expecting a positive number).
-- The `except` block catches the exception and prints an error message.
-
+- The function checks if the number is negative inside the try block
+- If the input is not a valid number (i.e., the user enters a non-numeric value), the `except ValueError` block catches the error and prints an error message, also returning `None`
+- We're handling both invalid inputs and negative numbers directly within the `try` and `except` blocks
 ---
 
 ### Example 3: Catching Multiple Types of Errors
