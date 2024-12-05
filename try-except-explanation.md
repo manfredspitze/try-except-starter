@@ -39,7 +39,9 @@ except <ErrorType>:
 - The **`try`** block contains code that might cause an exception.
 - The **`except`** block contains code that handles the exception if it occurs.
 
-You can catch specific types of exceptions, such as `ZeroDivisionError` or `ValueError`, or catch any exception using a generic `except` clause.
+It's always a good idea to try to catch specific types of exceptions, such as `ZeroDivisionError` or `ValueError`.
+
+That way, you can let the user know what the problem was with the script.
 
 ---
 
