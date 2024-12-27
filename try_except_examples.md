@@ -47,6 +47,6 @@ def get_user_input():
 
 if __name__ == "__main__":
   user_string = get_user_input()
-  if user_string:
+  if user_string: # If the user did enter a string...
     print(f"You entered: {user_string}")
 ```
