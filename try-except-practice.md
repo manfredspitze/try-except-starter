@@ -31,7 +31,7 @@ while True:
         num1 = int(input("Enter the first integer:\n"))
         break
     except ValueError:
-        print("Invalid input! Please enter a valid integer!")
+        print("Sorry, but I really need a number!")
 ```
 
 
