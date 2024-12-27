@@ -66,7 +66,7 @@ while True:
   - Print the current version of the list
   - HINT: You can combine both outputs in one f-string!
  
-- Write an except block that handles a `ValueError`
+- Write an `except` block that handles a `ValueError`
   - In the `except` block, print a message informing the user they entered invalid input and need to enter an integer
  
 - Outside the `while` loop, use an f-string to print the final list of scores 
