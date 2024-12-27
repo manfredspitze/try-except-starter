@@ -12,7 +12,7 @@ A `try-except` block can help keep your script from crashing when the user enter
 - Use comments to label each part in your `main.py` file
 
 #### Part 1: Doing Addition
-One common problem when prompting users to enter numbers occurs when people input text instead of numbers. When you try to convert the text input to an **integer**, you'll get a `ValueError`.
+One common problem when prompting users to enter numbers occurs when people input text instead of numbers. When you try to convert the text input to an **integer**, Python will **throw** (generate) a `ValueError`.
 
 Write a script that prompts the user to enter two **integers** so Python can calculate the sum of the two numbers.
 
