@@ -30,23 +30,31 @@ except ZeroDivisionError:
 
 ```python
 # Example 2
-def get_user_input():
-  """Prompts the user for string input and handles an empty string and a ValueError.
+def get_validated_input(min_length=1, max_length=10):
+  """
+  Prompts the user for a string input and validates its length.
+
+  Args:
+    min_length: The minimum allowed length of the string.
+    max_length: The maximum allowed length of the string.
 
   Returns:
-    The string entered by the user.
+    The validated string if valid, otherwise raises a ValueError.
   """
   while True:
     try:
-      user_input = input("Enter a string:\n")
-      if len(user_input) == 0:  # Check for empty string using len() function
-        raise ValueError
+      user_input = input("Enter a string: ")
+      if len(user_input) < min_length:
+        raise ValueError(f"Input string must be at least {min_length} characters long.")
+      if len(user_input) > max_length:
+        raise ValueError(f"Input string cannot exceed {max_length} characters.")
       return user_input
-    except ValueError:
-      print("Please do not just press the ENTER key!  Enter an actual string instead!")
+    except ValueError as e:
+      print(f"Error: {e}")
 
-if __name__ == "__main__":
-  user_string = get_user_input()
-  if user_string: # If the user did enter a string...
-    print(f"You entered: {user_string}")
+# Calling the function that validates the input
+validated_string = get_validated_input(min_length=3, max_length=8)
+
+if validated_string:
+  print(f"Validated string: {validated_string}")
 ```
