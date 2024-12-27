@@ -34,6 +34,8 @@ while True:
         print("Sorry, I really needed a number!")
 ```
 
+- Outside your loops (at the bottom of your script), print a message that displays both numbers and the sum.
+
 
 ![Sample output](output.png)
 
