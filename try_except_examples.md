@@ -20,29 +20,31 @@ In Python, exceptions are handled using `try-except` blocks.
 ### `try-except` Block Examples
 
 ```python
-# Example 1
-# Use a loop to keep asking the user to enter a price for the grocery item until
-# they enter a price that is 0 or greater
-while True:
-    try:
-        price = float(input("Enter the price of the grocery item: "))
-        if price < 0:
-            raise ValueError("Price cannot be negative!")
-        break
-    except ValueError as e:
-        print(f"Invalid price: {e}")
+# Using try-except block to handle attempting to divide a number by zero
+try:
+    print(2/0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
 ```
 
 ```python
-# Example 2
-# Did the user enter an age of zero or greater?
-# Was the user's input valid?  Or did they enter invalid input (such as a negative age or string input instead of a number?)
-while True:
+def get_user_input():
+  """Prompts the user for string input and handles an empty string and a ValueError.
+
+  Returns:
+    The string entered by the user.
+  """
+  while True:
     try:
-        age = int(input("Enter your age: "))
-        if age < 0:
-            raise ValueError("Age cannot be negative.")
-        break
-    except ValueError as e:
-        print(f"Invalid input: {e}")
+      user_input = input("Enter a string:\n")
+      if len(user_input) == 0:  # Check for empty string using len() function
+        raise ValueError("Empty strings are not allowed!")
+      return user_input
+    except ValueError:
+      print("Please do not just press the ENTER key!  Enter an actual string instead!")
+
+if __name__ == "__main__":
+  user_string = get_user_input()
+  if user_string:
+    print(f"You entered: {user_string}")
 ```
