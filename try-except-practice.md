@@ -83,7 +83,7 @@ while True:
     - Reminder: If the `if` statement is true:
       - print the item at that index
       - `break` out of the `while` loop
-    - Otherwise, tell the user to enter an index number between 0 and 5
+    - Otherwise, tell the user to enter an index number between 0 and 5 only
       - Again, how could you use the `len()` function to help Python display **5** (the index number of the last list item)?
 - Write an `except` block that handles a `ValueError`
-- In the `except` block, print a message that tells the user they entered invalid input and should only enter an integer value
+    - In the `except` block, print a message that tells the user they entered invalid input and should only enter an integer
