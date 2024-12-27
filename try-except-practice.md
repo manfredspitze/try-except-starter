@@ -25,7 +25,7 @@ Each loop will contain a `try-except` block that will prompt the user to enter a
 
 ### Sample Code
 ```python
-# Loop until the user enters a valid integer
+# This (first) loop prompts the user to enter a valid integer
 while True:
     try:
         num1 = int(input("Give me a number:\n"))
