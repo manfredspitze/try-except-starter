@@ -28,10 +28,10 @@ Each loop will contain a `try-except` block that will prompt the user to enter a
 # Loop until the user enters a valid integer
 while True:
     try:
-        num1 = int(input("Enter the first integer:\n"))
+        num1 = int(input("Give me a number:\n"))
         break
     except ValueError:
-        print("Sorry, but I really need a number!")
+        print("Sorry, I really need a number!")
 ```
 
 
