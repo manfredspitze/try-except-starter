@@ -49,8 +49,10 @@ while True:
 ```python
 while True:
     try:
+        # Replace the placeholder value pass with actual code
         pass
     except ValueError:
+        # Replace the placeholder value pass with actual code
         pass
 ```
    
