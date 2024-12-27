@@ -1,21 +1,16 @@
 ### What is an Exception in Python?
 
-**An exception in Python is an error that occurs during the execution of a program.** When an exception happens, it can disrupt the normal flow of the program.
+**An exception in Python is an error that occurs during the execution of a program.** 
+
+Exceptions are bad because they can crash your script, and users get frustrated with scripts that keep crashing.
+
+Even worse is a script that crashes and doesn't give the user a clear explanation *why* the script just crashed.
 
 **Think of it like this:** You're following a recipe to bake a cake. If you don't have enough flour, that's an exception. You can't continue following the recipe until you do something about the exception (such as borrow three cups of flour from your neighbor).
 
 In Python, exceptions are handled using `try-except` blocks. 
 
-`try-except` blocks help you write code that can gracefully handle errors and continue running even if something unexpected happens.
-
-### `try-except` Block in Python
-
-- A `try-except` block in Python helps you manage errors that pop up when you run your code
-
-- You write the code you want to test inside the `try` block, and if an error occurs, Python jumps to the `except` block to handle the error instead of crashing your script
-- This allows you to catch mistakes and provide the user with helpful feedback, which makes your code safer and more user-friendly
-- Using a `try-except` block is a way to anticipate problems and keep your script running smoothly
-
+`try-except` blocks help you avoid crashes and let you briefly explain to the user *why* the script didn't work as expected.
 
 ### `try-except` Block Examples
 
