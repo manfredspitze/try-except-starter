@@ -52,7 +52,7 @@ def get_validated_input(min_length=1, max_length=10):
     except ValueError as e:
       print(f"Error: {e}")
 
-# Calling the function that validates the input
+# Calling the function that validates the input string
 validated_string = get_validated_input(min_length=3, max_length=8)
 
 if validated_string:
