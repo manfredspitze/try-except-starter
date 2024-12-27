@@ -46,7 +46,7 @@ while True:
 - Define a CONSTANT named `EXIT_CODE` and assign it the value -999
 - Print a message prompts the user for an integer to add to the list OR -999 (the EXIT CODE) to quit
 - Write a `while` loop that contains a `try-except` block
-  - The `except` block should catch a `ValueError` exception (meaning the user entered something other than a number as input)
+  - The `except` block should handle a `ValueError` exception (meaning the user entered something other than a number as input)
 ```python
 while True:
     try:
