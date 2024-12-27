@@ -20,6 +20,7 @@ In Python, exceptions are handled using `try-except` blocks.
 ### `try-except` Block Examples
 
 ```python
+# Example 1
 # Using try-except block to handle attempting to divide a number by zero
 try:
     print(2/0)
@@ -28,6 +29,7 @@ except ZeroDivisionError:
 ```
 
 ```python
+# Example 2
 def get_user_input():
   """Prompts the user for string input and handles an empty string and a ValueError.
 
