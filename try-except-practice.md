@@ -20,8 +20,8 @@ For this script, write two `while` loops that both use the keyword `break` to qu
 
 Each loop will contain a `try-except` block that will prompt the user to enter an integer
 
-- The first loop will prompt the user for the first number (convert the user's input to an **integer**)
-- The second loop will prompt the user for a second number (convert the user's input to an **integer**)
+- The first loop will prompt the user for the first number 
+- The second loop will prompt the user for a second number 
 
 ### Sample Code
 ```python
