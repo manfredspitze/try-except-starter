@@ -31,7 +31,7 @@ while True:
         num1 = int(input("Give me a number:\n"))
         break
     except ValueError:
-        print("Sorry, I really needed a number!")
+        print("Sorry, I really needed a number.")
 ```
 
 - Outside your loops (at the bottom of your script), print a message that displays both numbers and the sum.
