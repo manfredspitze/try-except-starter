@@ -56,6 +56,19 @@ while True:
         # Replace the placeholder value pass with actual code
         pass
 ```
+
+- In the `try` block:
+  - Prompt the user to enter an integer OR -999 to quit
+  - `if` the user's input matches the `EXIT_CODE`, `break` out of the loop
+  - Append the user's input to the list
+  - Tell the user what input was just added to the list
+  - Print the current version of the list
+  - HINT: You can combine both outputs in an f-string!
+ 
+- Write an except block that handles a `ValueError`
+  - In the `except` block, print a message informing the user they entered invalid input and need to enter an integer
+ 
+- Outside the `while` loop, use an f-string to print the final list of scores 
    
 #### Invalid Index
 
