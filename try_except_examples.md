@@ -34,7 +34,7 @@ def get_validated_input(min_length=1, max_length=10):
   """
   Prompts the user for a string input and validates its length.
 
-  Args:
+  Arguments used in the function call:
     min_length: The minimum allowed length of the string.
     max_length: The maximum allowed length of the string.
 
