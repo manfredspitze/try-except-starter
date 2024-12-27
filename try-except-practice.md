@@ -73,8 +73,17 @@ while True:
 #### Invalid Index
 
 - Start by creating a list named `my_nums` and filling it with the numbers 10, 20, 30, 40, 50 and 60
+- Similar to the second script above, write a `while` loop that contains a `try-except` block
+
 - In your `try` block:
-  - prompt the user to enter an **integer** between 0 and 5 (since the list contains six items) and assign the user's input to a variable named `index`
-  - use an f-string to print the item at the index the user enters
-- As part of your first `except` block, catch an `IndexError` and print the message: *Index out of range! Enter an index between 0 and 5 only!*
-- As part of your second `except` block, catch a `ValueError` and print the message: *Invalid input! Enter an integer only for your index number!*
+  - prompt the user to enter an integer between 0 and 5
+  - How could you use the `len()` function to help Python display **5** (the index number of the last list item)?
+  - write an `if-else` statement that:
+    - checks if the index number the user entered is greater than or equal to zero **AND** less than the length of the list
+    - Reminder: If the `if` statement is true:
+      - print the item at that index
+      - `break` out of the `while` loop
+    - Otherwise, tell the user to enter an index number between 0 and 5
+      - Again, how could you use the `len()` function to help Python display **5** (the index number of the last list item)?
+- Write an `except` block that handles a `ValueError`
+- In the `except` block, print a message that tells the user they entered invalid input and should only enter an integer value
