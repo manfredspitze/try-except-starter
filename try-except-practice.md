@@ -9,7 +9,7 @@ A `try-except` block can help keep your script from crashing when the user enter
 ### Coding
 
 - Complete the practice scripts below
-- Use comments to label each script in your `main.py` file
+- Use comments to label each part in your `main.py` file
 
 #### Part 1: Doing Addition
 One common problem when prompting users to enter numbers occurs when people input text instead of numbers. When you try to convert the text input to an **integer**, you'll get a `ValueError`.
