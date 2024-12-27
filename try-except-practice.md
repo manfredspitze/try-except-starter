@@ -43,14 +43,16 @@ while True:
 #### Invalid List Element
 
 - Start by creating an empty Python list named `my_scores`
-- In your `try` block:
-  - prompt the user to enter an **integer** to add to your empty list
-  - Using the `int( )` function, tell Python to convert the user's input into an integer
-  - Use the `append()` method to add the user's input to your list
-  - Print the updated list
-- As part of your `except` block:
-  - catch a `ValueError` and then print a message that says:
-    - *Invalid input! Please enter a valid integer!*
+- Define a CONSTANT named `EXIT_CODE` and assign it the value -999
+- Print a message prompts the user for an integer to add to the list OR -999 (the EXIT CODE) to quit
+- Write a `while` loop that contains a `try-except` block
+```python
+while True:
+    try:
+        pass
+    except ValueError:
+        pass
+```
    
 #### Invalid Index
 
