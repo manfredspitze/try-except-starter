@@ -44,7 +44,7 @@ while True:
 
 - Start by creating an empty Python list named `my_scores`
 - Define a CONSTANT named `EXIT_CODE` and assign it the value -999
-- Prompt the user for an integer to add to the list OR -999 (the EXIT CODE) to quit
+- Prompt the user to enter an integer to add to the list OR to enter -999 (the EXIT CODE) to quit
   - How could you use an f-string to display the value of the EXIT CODE in the prompt?
 - Write a `while` loop that contains a `try-except` block
   - The `except` block should handle a `ValueError` exception (meaning the user entered something other than a number as input)
