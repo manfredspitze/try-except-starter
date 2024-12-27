@@ -17,15 +17,15 @@ One common problem when prompting users to enter numbers occurs when people inpu
 Write a script that prompts the user to enter two **integers** so Python can calculate the sum of the two numbers.
 
 For this script, write two `while` loops that both use the keyword `break` to quit the loop.
-- The first loop will prompt the user to enter the first number OR -999 to quit
-- The second loop will prompt the user to enter the first number OR -999 to quit
+- The first loop will prompt the user to enter the first number or -999 to quit
+- The second loop will prompt the user to enter another number or -999 to quit
 
 ### Sample Code
 ```python
-# This (first) loop prompts the user to enter a valid integer
+# Loop prompts the user to enter a valid integer or -999 to quit the loop
 while True:
     try:
-        num1 = int(input(f"Enter a number or {EXIT_CODE} to quit:\n"))
+        num1 = int(input(f"Enter a number or -999 to quit:\n"))
         break
     except ValueError:
         print("Sorry, I really needed a number.")
