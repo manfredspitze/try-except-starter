@@ -11,7 +11,7 @@ A `try-except` block can help keep your script from crashing when the user enter
 - Complete the practice scripts below
 - Use comments to label each script in your `main.py` file
 
-#### Doing Addition
+#### Part 1: Doing Addition
 One common problem when prompting users to enter numbers occurs when people input text instead of numbers. When you try to convert the text input to an **integer**, you'll get a `ValueError`.
 
 Write a script that prompts the user to enter two **integers** so Python can calculate the sum of the two numbers.
@@ -40,7 +40,7 @@ while True:
 ![Sample output](output.png)
 
 
-#### Invalid List Element
+#### Part 2: Invalid List Element
 
 - Start by creating an empty Python list named `my_scores`
 - Define a CONSTANT named `EXIT_CODE` and assign it the value -999
@@ -71,7 +71,7 @@ while True:
  
 - Outside the `while` loop, use an f-string to print the final list of scores 
    
-#### Invalid Index
+#### Part 3: Invalid Index
 
 - Start by creating a list named `my_nums` and filling it with the numbers 10, 20, 30, 40, 50 and 60
 - Similar to the second script above, write a `while` loop that contains a `try-except` block
