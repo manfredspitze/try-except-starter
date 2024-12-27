@@ -40,7 +40,7 @@ def get_user_input():
     try:
       user_input = input("Enter a string:\n")
       if len(user_input) == 0:  # Check for empty string using len() function
-        raise ValueError("Empty strings are not allowed!")
+        raise ValueError("Empty input is not allowed!")
       return user_input
     except ValueError:
       print("Please do not just press the ENTER key!  Enter an actual string instead!")
