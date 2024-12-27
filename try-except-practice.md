@@ -64,7 +64,7 @@ while True:
   - Append the user's input to the list
   - Tell the user what input was just added to the list
   - Print the current version of the list
-  - HINT: You can combine both outputs in an f-string!
+  - HINT: You can combine both outputs in one f-string!
  
 - Write an except block that handles a `ValueError`
   - In the `except` block, print a message informing the user they entered invalid input and need to enter an integer
